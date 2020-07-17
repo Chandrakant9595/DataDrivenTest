@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="DataDriven" verbose="1" >
+
+  <test name="DataDriven Demo Site" >
+    <classes>
+       <class name="com.excel.test.LoginTest" />   
+    </classes>
+  </test>
+</suite>
